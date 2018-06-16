@@ -1,0 +1,36 @@
+﻿@using IShop.Models;
+@model IEnumerable<IShop.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "Users";
+
+}
+
+<h2>Пользователи</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(u => u.FirstOrDefault().FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(u => u.FirstOrDefault().LastName)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            @Html.HiddenFor(modelItem => item.Id)
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+@Html.ActionLink("Создать отчет", "CreatePdf", "User", null, new { @class = "btn btn-success" })

@@ -1,0 +1,18 @@
+﻿@model IShop.Models.DailyMenuResponce
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Удалить</h2>
+
+<h3>Вы уверенны, что хотите удалить отзыв?</h3>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("Вернуться к отзывам", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }

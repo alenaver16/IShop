@@ -1,0 +1,58 @@
+﻿@model IEnumerable<IShop.Models.UserResponce>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Отзывы</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationUser.FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DailyMenu.DailyMenuName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Responce)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estimation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApplicationUser.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DailyMenu.DailyMenuName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Responce)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estimation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @using (Html.BeginForm("Delete", "UserResponces", new { id = item.UserResponceID }, FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" />
+        </div>
+    }
+        </td>
+    </tr>
+}
+
+</table>

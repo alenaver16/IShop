@@ -1,0 +1,40 @@
+﻿@model IEnumerable<IShop.Models.DishCategory>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Категории блюд</h2>
+
+<p>
+    @Html.ActionLink("Создать", "Create", null, new { @class = "btn btn-default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @*@Html.ActionLink("Редактировать", "Edit", new { id = item.CategoryID }, new { @class = "btn btn-default" })*@
+                @using (Html.BeginForm("Delete", "DishCategories", new { id = item.CategoryID }, FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                <div class="form-actions no-color">
+                    @Html.ActionLink("Редактировать", "Edit", new { id = item.CategoryID }, new { @class = "btn btn-default" })
+                    <input type="submit" value="Удалить" class="btn btn-default" />
+                </div>
+                }
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,41 @@
+﻿@model IShop.Models.IndexViewModel
+@{
+    ViewBag.Title = "Управление";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Изменение параметров учетной записи</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Пароль:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Смена пароля", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Создать", "SetPassword")
+            }
+            ]
+        </dd>
+        <dt>Внешние имена входа:</dt>
+        <dd>
+            @Model.Logins.Count [
+            @Html.ActionLink("Управление", "ManageLogins") ]
+        </dd>
+
+        <dt>Двухфакторная проверка подлинности:</dt>
+        <dd>
+            <p>
+                Поставщики двухфакторной проверки подлинности не настроены. В <a href="https://go.microsoft.com/fwlink/?LinkId=403804">этой статье</a>
+                можно узнать, как настроить двухфакторную проверку подлинности для этого приложения ASP.NET.
+            </p>
+        
+        </dd>
+    </dl>
+</div>

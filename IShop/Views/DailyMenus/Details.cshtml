@@ -1,0 +1,154 @@
+﻿@using IShop.Models
+@model dynamic
+
+@{
+    ViewBag.Title = "Details";
+    DailyMenu dailyMenu = Model.DailyMenu;
+    List<UserResponce> responses = Model.Responses;
+    //string category = Model.Category;
+}
+
+<div class="row">
+    <div class="col-md-6 col-sm-6">
+        <h2>Подробнее</h2>
+    </div>
+    <div class="col-md-6 col-sm-6">
+        <p style="float: right; margin: 20px 0 0px;">
+            @if (this.User.IsInRole("user"))
+            {
+                @Html.ActionLink("Вернуться к рационам", "IndexUser", null, new { @class = "btn btn-default" })
+                @Html.ActionLink("Заказать", "Order", new { id = dailyMenu.DailyMenuID }, new { @class = "btn btn-default" })
+            }
+            else
+            {
+                @Html.ActionLink("Вернуться к рационам", "Index", null, new { @class = "btn btn-default" })
+            }
+        </p>
+    </div>
+</div>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => dailyMenu.DailyMenuName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => dailyMenu.DailyMenuName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => dailyMenu.Calorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => dailyMenu.Calorie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => dailyMenu.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => dailyMenu.Price)
+        </dd>
+        <dt>
+            @Html.DisplayName("Блюда")
+        </dt>
+        <dd>
+            <ul>
+                @foreach (Dish dish in Model.Dishes)
+                {
+                    <li>@dish.DishName  @Html.ActionLink("Подробнее", "Details", "Dishes", new { id = dish.DishID }, new { @class = "" }) </li>
+                }
+            </ul>
+        </dd>
+    </dl>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-sm-6">
+        <h3>Отзывы</h3>
+    </div>
+    @if (this.User.IsInRole("user"))
+    {
+        <div class="col-md-6 col-sm-6">
+            <p style="float: right; margin: 20px 0 0px;">
+                @Html.ActionLink("Написать отзыв", "Create", "UserResponces", new { id = dailyMenu.DailyMenuID }, new { @class = "btn btn-default" })
+            </p>
+        </div>
+    }
+</div>
+
+@if (responses.Count == 0)
+{
+    <div class="alert alert-info">
+        <strong>Информация!</strong> Отзывов нет.
+    </div>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => responses.FirstOrDefault().ApplicationUser.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => responses.FirstOrDefault().Responce)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => responses.FirstOrDefault().Estimation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => responses.FirstOrDefault().Date)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in responses)
+        {
+            <tr>
+                @if (item.UserId == Model.Id)
+                {
+                    <td>
+                        Вы
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ApplicationUser.FullName)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.Responce)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estimation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                @if (item.UserId == Model.Id)
+                {
+                    <td>
+                        @using (Html.BeginForm("Delete", "UserResponces", new { id = item.UserResponceID }, FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+
+                            <div class="form-actions no-color">
+                                @Html.ActionLink("Изменить", "Edit", "UserResponces", new { id = item.UserResponceID }, new { @class = "btn btn-default" })
+                                <input type="submit" value="Удалить" class="btn btn-default" />
+                            </div>
+                        }
+                    </td>
+                }
+                else
+                {
+                    <td></td>
+                }
+            </tr>
+        }
+
+    </table>
+}

@@ -1,0 +1,58 @@
+﻿@using IShop.Models;
+@model dynamic
+@{
+    ApplicationUser user = Model.User;
+    var dailyMenu = Model.DailyMenus;
+    ViewBag.Title = "Профиль пользователя";
+}
+
+<h2>Профиль пользователя</h2>
+<p class="text-success">@ViewBag.StatusMessage</p>
+<dl class="dl-horizontal">
+    @Html.AntiForgeryToken()
+    <dt>
+        @Html.DisplayNameFor(u => user.FirstName)
+    </dt>
+    <dd>
+        @Html.DisplayFor(u => user.FirstName)
+    </dd>
+    <dt>
+        @Html.DisplayNameFor(u => user.LastName)
+    </dt>
+    <dd>
+        @Html.DisplayFor(u => user.LastName)
+    </dd>
+    <dt>
+        @Html.DisplayName("Почта")
+    </dt>
+    <dd>
+        @Html.DisplayFor(u => user.Email)
+    </dd>
+</dl>
+@if (this.User.IsInRole("manager"))
+{
+
+}
+else
+{
+<dl>
+    <dt>
+        @Html.DisplayName("Заказанные меню")
+    </dt>
+    <dd>
+        <ul>
+            @foreach (var m in dailyMenu)
+            {
+                <li>@m.getDailyMenu().DailyMenuName - @m.getDateTime().ToShortDateString()</li>
+            }
+        </ul>
+    </dd>
+</dl>
+    <p>
+        @Html.ActionLink("Все заказы", "Orders", null, new { @class = "btn btn-primary" })
+    </p>
+}
+<br />
+<p>
+    @Html.ActionLink("Редактировать профиль", "EditUserProfile", null, new { @class = "btn btn-default" })
+</p>

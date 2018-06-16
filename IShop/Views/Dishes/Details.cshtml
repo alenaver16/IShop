@@ -1,0 +1,73 @@
+﻿@using IShop.Models
+@model dynamic
+
+@{
+    ViewBag.Title = "Details";
+    Dish dish = Model.Dish;
+    string category = Model.Category;
+}
+
+<h2>Подробнее</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => dish.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => dish.DishName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => dish.DishName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => dish.Calorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => dish.Calorie)
+        </dd>
+        <dt>
+            @Html.DisplayName("Ингридиенты")
+        </dt>
+        <dd>
+            <ul>
+                @foreach (Ingredient ingredient in Model.Ingredients)
+                {
+                    <li>@ingredient.IngredientName </li>
+                }
+            </ul>
+        </dd>
+        <dt>
+            @Html.DisplayName("Входит в меню")
+        </dt>
+        <dd>
+            <ul>
+                @foreach (DailyMenu menu in Model.Menus)
+                {
+                    <li>@menu.DailyMenuName </li>
+                }
+            </ul>
+        </dd>
+    </dl>
+</div>
+<p>
+    @if (this.User.IsInRole("user"))
+    {
+        @Html.ActionLink("Вернуться к рационам", "IndexUser", "DailyMenus")
+    }
+    else
+    {
+        @Html.ActionLink("Редактировать", "Edit", new { id = dish.DishID }, new { @class = "btn btn-default" }) 
+        @Html.ActionLink("Вернуться к списку блюд", "Index", null, new { @class = "btn btn-default" }) 
+        @Html.ActionLink("Вернуться к рационам", "Index", "DailyMenus", null, new { @class = "btn btn-default" });
+     }
+</p>

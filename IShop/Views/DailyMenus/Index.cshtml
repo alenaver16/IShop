@@ -1,0 +1,60 @@
+﻿@using IShop.Models
+@model IEnumerable<DailyMenu>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Рационы</h2>
+<p>
+    @Html.ActionLink("Создать", "Create", null, new { @class = "btn btn-default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DailyMenuName)
+        </th>
+        <th>
+            @Html.DisplayName("Блюда")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Calorie)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DailyMenuName)
+            </td>
+            <td>
+                <ul>
+                    @foreach (var dish in item.Dishes)
+                    {
+                        <li>
+                            @Html.DisplayFor(modeldish => dish.DishName)
+                        </li>
+                    }
+                </ul>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calorie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.ActionLink("Редактировать", "Edit", new { id = item.DailyMenuID }, new { @class = "btn btn-default" }) |
+                @Html.ActionLink("Подробнее", "Details", new { id = item.DailyMenuID }, new { @class = "btn btn-default" }) |
+                @Html.ActionLink("Удалить", "Delete", new { id = item.DailyMenuID }, new { @class = "btn btn-default" })
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Создать отчет по всем меню", "CreatePdf", "DailyMenus", null, new { @class = "btn btn-success" })

@@ -1,0 +1,469 @@
+C:\Users\Alona\Desktop\IShop\IShop\bin\ApplicationInsights.config
+C:\Users\Alona\Desktop\IShop\IShop\bin\IShop.dll.config
+C:\Users\Alona\Desktop\IShop\IShop\bin\IShop.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\IShop.pdb
+C:\Users\Alona\Desktop\IShop\IShop\bin\Antlr3.Runtime.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\EntityFramework.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.Web.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Newtonsoft.Json.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Owin.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Helpers.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Mvc.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Optimization.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Razor.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.WebPages.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\WebGrease.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Helpers.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Mvc.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Optimization.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.Razor.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.WebPages.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Antlr3.Runtime.pdb
+C:\Users\Alona\Desktop\IShop\IShop\bin\Newtonsoft.Json.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\EntityFramework.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\Microsoft.AI.Web.xml
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\EntityFramework.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Alona\Desktop\IShop\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\Users\Alona\Desktop\IShop\IShop\obj\Debug\IShop.csproj.CoreCompileInputs.cache
+C:\Users\Alona\Desktop\IShop\IShop\obj\Debug\IShop.dll
+C:\Users\Alona\Desktop\IShop\IShop\obj\Debug\IShop.pdb
+C:\Users\Alona\Desktop\IShop\IShop\obj\Debug\IShop.Migrations.Initialmigration.resources
+C:\Users\Alona\Desktop\IShop\IShop\obj\Debug\IShop.csproj.GenerateResource.Cache
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ApplicationInsights.config
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\IShop.dll.config
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\IShop.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\IShop.pdb
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Antlr3.Runtime.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\EntityFramework.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.Web.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Newtonsoft.Json.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Owin.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Helpers.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Mvc.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Optimization.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Razor.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.WebPages.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\WebGrease.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Helpers.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Mvc.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Optimization.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.Razor.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.WebPages.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Antlr3.Runtime.pdb
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Newtonsoft.Json.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\EntityFramework.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\Microsoft.AI.Web.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\EntityFramework.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\obj\Debug\IShop.csproj.CoreCompileInputs.cache
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\obj\Debug\IShop.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\obj\Debug\IShop.pdb
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\itextsharp.dll
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\bin\itextsharp.xml
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\obj\Debug\IShop.Migrations.Initial.resources
+C:\Users\Alona\Desktop\IShop Проинициализировано\IShop\obj\Debug\IShop.csproj.GenerateResource.Cache
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ApplicationInsights.config
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\IShop.dll.config
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\IShop.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\IShop.pdb
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Antlr3.Runtime.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\itextsharp.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.Web.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Newtonsoft.Json.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Owin.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Helpers.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Mvc.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Optimization.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Razor.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\WebGrease.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\itextsharp.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Helpers.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Mvc.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Optimization.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Razor.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Antlr3.Runtime.pdb
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Newtonsoft.Json.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.Web.xml
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\EntityFramework.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.Migrations.Initial.resources
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csproj.GenerateResource.cache
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csproj.CopyComplete
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.dll
+C:\Users\Vlad\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.pdb
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ApplicationInsights.config
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\IShop.dll.config
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\IShop.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\IShop.pdb
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Antlr3.Runtime.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\itextsharp.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.Web.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Newtonsoft.Json.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Owin.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Helpers.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Mvc.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Optimization.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Razor.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\WebGrease.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\itextsharp.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Helpers.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Mvc.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Optimization.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.Razor.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Antlr3.Runtime.pdb
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Newtonsoft.Json.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\Microsoft.AI.Web.xml
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\EntityFramework.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.Migrations.Initial.resources
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csproj.GenerateResource.Cache
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.csproj.CoreCompileInputs.cache
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.dll
+C:\Users\Alona\Desktop\IShop ОРИГИНАЛ\IShop\obj\Debug\IShop.pdb
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ApplicationInsights.config
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\IShop.dll.config
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\IShop.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\IShop.pdb
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Antlr3.Runtime.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\EntityFramework.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\itextsharp.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.Web.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Newtonsoft.Json.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Owin.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Helpers.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Mvc.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Optimization.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Razor.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.WebPages.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\WebGrease.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\itextsharp.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Helpers.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Mvc.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Optimization.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.Razor.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.WebPages.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Antlr3.Runtime.pdb
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Newtonsoft.Json.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\EntityFramework.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\Microsoft.AI.Web.xml
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\EntityFramework.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\obj\Debug\IShop.csprojResolveAssemblyReference.cache
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\obj\Debug\IShop.Migrations.Initial.resources
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\obj\Debug\IShop.csproj.GenerateResource.Cache
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\obj\Debug\IShop.csproj.CoreCompileInputs.cache
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\obj\Debug\IShop.dll
+C:\Users\Alona\Desktop\Курсовой_Верещака_6.0451.15.01\IShop\IShop\obj\Debug\IShop.pdb

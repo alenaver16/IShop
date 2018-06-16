@@ -1,0 +1,50 @@
+﻿@model IEnumerable<IShop.Models.DailyMenuResponce>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Полезные отзывы</h2>
+
+<p>
+    @Html.ActionLink("Добавить", "Create", null, new { @class = "btn btn-default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Меню")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Responce)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Reference)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DailyMenu.DailyMenuName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Responce)
+        </td>
+        <td>
+            <a target="_blank" href="@item.Reference">@item.Reference</a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.ActionLink("Редактировать", "Edit", new { id = item.DailyMenuResponceID }, new { @class = "btn btn-default" }) |
+            @Html.ActionLink("Удалить", "Delete", new { id = item.DailyMenuResponceID }, new { @class = "btn btn-default" })
+        </td>
+    </tr>
+}
+
+</table>

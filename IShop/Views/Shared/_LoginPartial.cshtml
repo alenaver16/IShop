@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNet.Identity
+@using IShop.Models
+@{
+
+    string userId = User.Identity.GetUserId();
+
+    var user = (new ApplicationDbContext()).Users.FirstOrDefault(s => s.Id == userId);
+
+}
+
+@if (Request.IsAuthenticated && User.IsInRole("user"))
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Страница пользователя", "UserProfile", "Account")</li>
+            <li>@Html.ActionLink("Рационы для заказа", "IndexUser", "DailyMenus")</li>
+            <li>@Html.ActionLink("Отзывы о питании", "IndexUser", "DailyMenuResponces")</li>
+            <li>@Html.ActionLink("Отзывы пользователей", "IndexUser", "UserResponces")</li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                @Html.ActionLink("Здравствуйте, " + user.FirstName + "!", "UserProfile", "Account")
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Выйти</a></li>
+        </ul>
+    }
+}
+@if (Request.IsAuthenticated && User.IsInRole("manager"))
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Ингридиенты", "Index", "Ingredients")</li>
+            <li>@Html.ActionLink("Категории", "Index", "DishCategories")</li>
+            <li>@Html.ActionLink("Блюда", "Index", "Dishes")</li>
+            <li>@Html.ActionLink("Рационы", "Index", "DailyMenus")</li>
+            <li>@Html.ActionLink("О питании", "Index", "DailyMenuResponces")</li>
+            <li>@Html.ActionLink("Отзывы", "Index", "UserResponces")</li>
+            <li>@Html.ActionLink("Заказы", "Index", "Orders")</li>
+            <li>@Html.ActionLink("Пользователи", "Index", "User")</li>
+            <li>@Html.ActionLink("Профиль", "UserProfile", "Account")</li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Выйти</a></li>
+        </ul>
+    }
+}
+else if (!Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Регистрация", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Выполнить вход", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

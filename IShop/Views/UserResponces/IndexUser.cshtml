@@ -1,0 +1,50 @@
+﻿@model IEnumerable<IShop.Models.UserResponce>
+
+@{
+    ViewBag.Title = "IndexUser";
+}
+
+<h2>Отзывы</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ApplicationUser.FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DailyMenu.DailyMenuName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Responce)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estimation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApplicationUser.FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DailyMenu.DailyMenuName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Responce)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estimation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+
+    </tr>
+}
+
+</table>

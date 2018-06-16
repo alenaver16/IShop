@@ -1,0 +1,46 @@
+﻿@model IEnumerable<IShop.Models.Ingredient>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Ингридиенты</h2>
+
+<p>
+    @Html.ActionLink("Создать", "Create", null, new { @class = "btn btn-default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IngredientName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Calorie)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IngredientName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calorie)
+            </td>
+            <td>
+                @*@Html.ActionLink("Редактировать", "Edit", new { id = item.IngrediantID }, new { @class = "btn btn-default" })*@
+                @using (Html.BeginForm("Delete", "Ingredients", new { id = item.IngrediantID }, FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                <div class="form-actions no-color">
+                    @Html.ActionLink("Редактировать", "Edit", new { id = item.IngrediantID }, new { @class = "btn btn-default" })
+                    <input type="submit" value="Удалить" class="btn btn-default" />
+                </div>
+                }
+            </td>
+        </tr>
+    }
+
+</table>

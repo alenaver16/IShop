@@ -1,0 +1,46 @@
+﻿@model IEnumerable<IShop.Models.DailyMenuResponce>
+
+@{
+    ViewBag.Title = "IndexUser";
+}
+
+<h2>Полезные отзывы</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DailyMenu.DailyMenuName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Responce)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Reference)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DailyMenu.DailyMenuName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Responce)
+        </td>
+        <td>
+            <a target="_blank" href="@item.Reference">@item.Reference</a>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @*@Html.ActionLink("Details", "Details", new { id=item.DailyMenuResponceID })*@
+        </td>
+    </tr>
+}
+
+</table>

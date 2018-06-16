@@ -1,0 +1,61 @@
+﻿@model IEnumerable<IShop.Models.Order>
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+<h2>Мои заказы</h2>
+@if (Model.ToList().Count == 0)
+{
+    <div class="alert alert-info">
+        <strong>Информация!</strong> Заказов нет.
+    </div>
+}
+else
+{
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DailyMenu.DailyMenuName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Count)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FinalyPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DailyMenu.DailyMenuName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Count)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FinalyPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.ActionLink("Чек", "Bill", new { id = item.OrderID }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </table>
+}

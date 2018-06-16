@@ -1,0 +1,62 @@
+﻿
+@using IShop.Models
+@model dynamic
+
+@{
+    Order order = Model.Order;
+    string user = Model.User;
+    string dailyMenu = Model.Menu;
+}
+@{
+    ViewBag.Title = "Bill";
+}
+
+<h2>Чек</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayName("Пользователь")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => user)
+        </dd>
+        <dt>
+            @Html.DisplayName("Меню")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => dailyMenu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => order.Count)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => order.Count)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => order.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => order.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => order.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => order.Date)
+        </dd>
+        @Html.HiddenFor(model => order.DateString)
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Вернуться к заказам", "Orders", null, new { @class = "btn btn-default" })
+</p>

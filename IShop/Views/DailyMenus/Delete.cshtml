@@ -1,0 +1,47 @@
+﻿@model IShop.Models.DailyMenu
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Удалить</h2>
+
+<h3>Вы уверенны, что хотите удалить этот рацион?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DailyMenuName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DailyMenuName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Calorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Calorie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("Вернуться к рационам", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

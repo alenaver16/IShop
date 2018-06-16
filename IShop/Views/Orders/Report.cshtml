@@ -1,0 +1,53 @@
+﻿@using IShop.Models
+@model IEnumerable<Order>
+
+@{
+    ViewBag.Title = "Отчетность по заказам";
+}
+
+<h2>Отчетность</h2>
+<hr />
+@{
+    ApplicationDbContext db = new ApplicationDbContext();
+
+    var c = db.Orders.OrderBy(o => o.DateString).GroupBy(o => o.DateString).ToList();
+
+    var list = ((IEnumerable<IShop.Models.Order>)ViewBag.Order).GroupBy(p => p.DateString);
+
+}
+<h3>Ежедневная отчетность</h3>
+@foreach (IGrouping<string, Order> g in list)
+{
+    <li>
+        Дата: @g.Key Количество заказов: @g.Count();
+    </li>
+    <li>
+        Дата: @g.Key Количество заказанных рационов: @g.Sum(s => s.Count);
+    </li>
+    <li>
+        Дата: @g.Key Общая стоимость заказов: @g.Sum(s => s.FinalyPrice);
+    </li>
+    <li>
+        Заказали:
+        <ul>
+            @foreach (var t in g)
+            {
+                <li>
+                    @t.ApplicationUser.FullName
+                </li>
+            }
+        </ul>
+    </li>
+}
+
+
+<h4>Ежедневная отчетность по количеству продаж</h4>
+<p>
+    <img src="@Url.Action("ReportChart")" alt="Alternate Text" />
+</p>
+<h4>Отчетность по количеству продаж каждого меню</h4>
+<p>
+    <img src="@Url.Action("ReportChartPie")" alt="Alternate Text" />
+</p>
+
+@Html.ActionLink("Создать отчет", "CreatePdf", "Orders", null, new { @class = "btn btn-success" })

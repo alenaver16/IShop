@@ -1,0 +1,57 @@
+﻿@model IShop.Models.UserResponce
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Подробнее</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationUser.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationUser.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DailyMenu.DailyMenuName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DailyMenu.DailyMenuName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Responce)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Responce)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Estimation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Estimation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Редактировать", "Edit", new { id = Model.UserResponceID }) |
+    @Html.ActionLink("Вернуться к отзывам", "Index")
+</p>
